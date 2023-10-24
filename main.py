@@ -9,7 +9,7 @@ import time
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Load your Emotion Detection model (.h5 file)
-emotion_model = keras.models.load_model('C:/Kecilin/emotion_detection/V1/checkpoint/best_model.h5')
+emotion_model = keras.models.load_model('C:/Kecilin/emotion_detection/V3/checkpoint/best_model.h5')
 
 # Define emotion labels (adjust these labels to match your model's output)
 # emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
